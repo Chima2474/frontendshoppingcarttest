@@ -32,7 +32,7 @@ const ProductItem = ({ productItem }: ProductItemprops) => {
         onClick={() => {
           openCart(), addToCart(id);
         }}>
-        Add To Cart {quantity === 0 ? null : quantity}
+        Add To Cart
       </button>
     </div>
   );
