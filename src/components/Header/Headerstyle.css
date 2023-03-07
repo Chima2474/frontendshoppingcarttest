@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  background: white;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.navbar {
+  width: 90vw;
+  height: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div li {
+  list-style-type: none;
+}
+div li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}

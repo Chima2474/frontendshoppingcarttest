@@ -1,0 +1,22 @@
+.footer-container {
+  width: 100%;
+  background: rgb(18, 14, 14);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.footer {
+  width: 90vw;
+  height: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div li {
+  list-style-type: none;
+}
+.footer li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
