@@ -6,7 +6,7 @@ const navLinks: string[] = ["facebook", "instagram", "twitter", "Discord"];
 
 const index = (props: Props) => {
   return (
-    <section className="footer-container">
+    <footer className="footer-container">
       <div className="footer">
         {navLinks.map((item) => (
           <li key={item} className="navLinks">
@@ -16,7 +16,7 @@ const index = (props: Props) => {
           </li>
         ))}
       </div>
-    </section>
+    </footer>
   );
 };
 
